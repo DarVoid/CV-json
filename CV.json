@@ -1,0 +1,240 @@
+{
+  "basics": {
+    "name": "Jorge Duque",
+    "title": "Senior Backend Software Engineer",
+    "headline": "Senior Backend Software Engineer specializing in Go (Golang), Cloud Infrastructure, Kubernetes, Platform Engineering, and DevOps.",
+    "email": "jorgeraposoduque@gmail.com",
+    "phone": "+351933110505",
+    "location": {
+      "country": "Portugal",
+      "remote": true
+    }
+  },
+  "summary": {
+    "years_experience": 5,
+    "description": "Backend Software Engineer with experience designing, building, and maintaining cloud-native applications, distributed systems, and developer platforms. Specialized in Go (Golang), Kubernetes, CI/CD automation, Infrastructure as Code, and cloud-native architectures across AWS, Azure, and Google Cloud Platform."
+  },
+  "skills": {
+    "languages": [
+      "Go",
+      "Node.js",
+      "Python",
+      "TypeScript",
+      "Bash"
+    ],
+    "cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "containers": [
+      "Docker",
+      "Kubernetes",
+      "Helm"
+    ],
+    "devops": [
+      "GitHub Actions",
+      "Terraform",
+      "Ansible",
+      "CI/CD",
+      "Infrastructure as Code",
+      "Deployment Automation"
+    ],
+    "architecture": [
+      "Distributed Systems",
+      "Cloud Native",
+      "Microservices",
+      "Platform Engineering",
+      "Event-Driven Architecture",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "security": [
+      "Vault",
+      "Keycloak"
+    ],
+    "messaging": [
+      "RabbitMQ"
+    ],
+    "methodologies": [
+      "Agile",
+      "Scrum",
+      "Pair Programming",
+      "Mob Programming"
+    ]
+  },
+  "experience": [
+    {
+      "company": "TechFrame SA",
+      "position": "Software Developer",
+      "start": "2025-01",
+      "end": "2025-11",
+      "industry": "Software",
+      "summary": "Developed automated data extraction services integrated into CI/CD pipelines.",
+      "responsibilities": [
+        "Developed backend services in Go and Node.js.",
+        "Built containerized services using Docker.",
+        "Integrated deployments into CI/CD pipelines.",
+        "Worked with Azure and Google Cloud Platform.",
+        "Developed automation scripts using Bash."
+      ],
+      "technologies": [
+        "Go",
+        "Node.js",
+        "Docker",
+        "Azure",
+        "GCP",
+        "Bash"
+      ]
+    },
+    {
+      "company": "Critical TechWorks",
+      "client": "BMW Group",
+      "position": "Software Developer",
+      "start": "2023-03",
+      "end": "2024-12",
+      "industry": "Automotive",
+      "summary": "Worked on Platform-as-a-Service infrastructure and the BMW mobile platform.",
+      "responsibilities": [
+        "Developed backend services using Go.",
+        "Built cloud-native platform components.",
+        "Automated CI/CD using GitHub Actions.",
+        "Managed Kubernetes deployments.",
+        "Implemented Infrastructure as Code with Terraform.",
+        "Worked across AWS and Azure.",
+        "Integrated GraphQL APIs.",
+        "Implemented authentication using Keycloak.",
+        "Managed secrets with Vault."
+      ],
+      "technologies": [
+        "Go",
+        "Node.js",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "GitHub Actions",
+        "GraphQL",
+        "Vault",
+        "Keycloak",
+        "Python",
+        "Bash"
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "position": "Software Development Consultant",
+      "start": "2022-10",
+      "end": "2023-03",
+      "industry": "Consulting",
+      "summary": "Developed event-driven microservices deployed in cloud-native environments.",
+      "responsibilities": [
+        "Developed Go microservices.",
+        "Built Node.js backend services.",
+        "Containerized services using Docker.",
+        "Created CI/CD pipelines.",
+        "Developed troubleshooting tools.",
+        "Facilitated Scrum ceremonies."
+      ],
+      "technologies": [
+        "Go",
+        "Node.js",
+        "Docker",
+        "RabbitMQ",
+        "GitHub Actions",
+        "GCP",
+        "Bash"
+      ]
+    },
+    {
+      "company": "TechFrame SA",
+      "position": "Software Developer",
+      "start": "2021-04",
+      "end": "2022-10",
+      "industry": "Software",
+      "summary": "Developed an industrial property management platform from scratch.",
+      "responsibilities": [
+        "Designed backend architecture.",
+        "Developed REST APIs.",
+        "Built frontend functionality using Angular.",
+        "Containerized applications.",
+        "Maintained Azure infrastructure."
+      ],
+      "technologies": [
+        "Angular",
+        "Node.js",
+        "Docker",
+        "Azure",
+        "Bash"
+      ]
+    },
+    {
+      "company": "Softinsa (IBM)",
+      "position": "Software Developer",
+      "start": "2020-07",
+      "end": "2021-03",
+      "industry": "Enterprise Software",
+      "summary": "Improved the scalability and performance of critical enterprise management systems.",
+      "responsibilities": [
+        "Optimized application performance.",
+        "Improved software architecture.",
+        "Developed backend services.",
+        "Enhanced maintainability."
+      ],
+      "technologies": [
+        "Python",
+        "Node.js",
+        "TypeScript",
+        "Bash"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Politécnico de Tomar",
+      "degree": "Bachelor of Computer Science",
+      "start": "2017",
+      "end": "2020"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Portuguese",
+      "proficiency": "Native"
+    }
+  ],
+  "keywords": [
+    "Go",
+    "Golang",
+    "Backend Engineer",
+    "Software Engineer",
+    "Cloud Native",
+    "Microservices",
+    "Distributed Systems",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Terraform",
+    "GitHub Actions",
+    "CI/CD",
+    "AWS",
+    "Azure",
+    "Google Cloud Platform",
+    "Platform Engineering",
+    "DevOps",
+    "Infrastructure as Code",
+    "REST API",
+    "GraphQL",
+    "RabbitMQ",
+    "Automation",
+    "Performance Optimization",
+    "Scrum",
+    "Agile"
+  ]
+}
