@@ -1,0 +1,134 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+\pagestyle{empty}
+
+\definecolor{heading}{RGB}{35,35,35}
+
+\titleformat{\section}
+{\Large\bfseries\color{heading}}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize}{
+leftmargin=*,
+itemsep=2pt
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\Huge\textbf{ {{ .Person.Name }} }}
+
+\vspace{4pt}
+
+{\large {{ .Person.Title }}}
+
+\vspace{8pt}
+
+{{ .Person.Location }}
+{{ if .Person.Remote }} • Remote{{ end }}
+
+\href{mailto:{{ .Person.Email }}}{{ .Person.Email }}
+\hfill
+{{ .Person.Phone }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Summary}
+
+{{ .Summary.Description }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Experience}
+
+{{ range .Experience }}
+
+\textbf{ {{ .Position }} }
+
+{{ company . }}
+
+\emph{ {{ period . }} }
+
+{{ .Summary }}
+
+\begin{itemize}
+
+{{ range .Responsibilities }}
+\item {{ . }}
+{{ end }}
+
+\end{itemize}
+
+\textbf{Technologies}
+
+{{ technologies . }}
+
+\vspace{1em}
+
+{{ end }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Technical Skills}
+
+{{ skillSection "Languages" .Skills.Languages }}
+
+{{ skillSection "Cloud" .Skills.Cloud }}
+
+{{ skillSection "Containers" .Skills.Containers }}
+
+{{ skillSection "DevOps" .Skills.DevOps }}
+
+{{ skillSection "Architecture" .Skills.Architecture }}
+
+{{ skillSection "Security" .Skills.Security }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Education}
+
+{{ range .Education }}
+
+\textbf{ {{ .Degree }} }
+
+{{ .Institution }}
+
+{{ period . }}
+
+\vspace{0.5em}
+
+{{ end }}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LANGUAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Languages}
+
+{{ languages .Languages }}
+
+\end{document}
