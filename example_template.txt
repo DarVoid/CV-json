@@ -1,0 +1,25 @@
+{{range .Experience}}
+# {{.Role}}
+
+{{.Company}}
+
+{{range .Projects}}
+
+## {{.Name}}
+
+{{.Description}}
+
+### Responsibilities
+
+{{range .Responsibilities}}
+- {{.}}
+{{end}}
+
+### Technologies
+
+{{range .Stack}}
+- {{.}}
+{{end}}
+
+{{end}}
+{{end}}
