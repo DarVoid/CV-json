@@ -154,7 +154,8 @@
       "start": "2021-04",
       "end": "2022-10",
       "industry": "Software",
-      "summary": "Developed an industrial property management platform from scratch.",
+      "summary": "Migrated a legacy Windows Forms application to Angular CLI, supporting intellectual property management for brands, designs, and patents.
+      Mentored an intern and contributed to an IoT health monitoring project, integrating sensor data into a database for caregiver care planning.",
       "responsibilities": [
         "Designed backend architecture.",
         "Developed REST APIs.",
@@ -176,7 +177,11 @@
       "start": "2020-07",
       "end": "2021-03",
       "industry": "Enterprise Software",
-      "summary": "Improved the scalability and performance of critical enterprise management systems.",
+      "summary": "Developed data migration and data warehousing solutions for a commission management platform used by Vodafone, Orange, and Heineken.
+      Built Python automation scripts to streamline ETL processes and data processing workflows.
+      Developed backend APIs to expose commission and performance data for internal reporting dashboards.
+      Contributed to accurate commission calculations based on sales agent performance through data validation and transformation.
+      Collaborated on system integrations and database optimization to improve data quality and operational efficiency.",
       "responsibilities": [
         "Optimized application performance.",
         "Improved software architecture.",
